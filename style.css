@@ -1,0 +1,32 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f5f5; /* Fallback color */
+    background-image: linear-gradient(rgba(0,0,0,0.18), rgba(0,0,0,0.18)), 
+                  url("images/background image01.jpg");
+
+    background-size: cover;        /* Make sure it covers the screen */
+    background-position: center;   /* Center the image */
+    background-attachment: fixed;  /* Stays fixed while scrolling */
+    background-repeat: no-repeat;  /* Prevent tiling */
+}
+
+
+.nav-link {
+    cursor: pointer;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+.nav-link.active {
+    border-bottom-color: #0bd2f5; /* amber-500 */
+}
+.page-section {
+    display: none;
+}
+.page-section.active {
+    display: block;
+}
+
+
+
+
